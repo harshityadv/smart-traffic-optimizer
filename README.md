@@ -161,6 +161,23 @@ if yellow phase:
 
 ---
 
+## Results
+
+After training for 50,000 steps (~200+ episodes), the agent was evaluated on a full 1-hour simulation with ~1,000 regular vehicles and 60 ambulances:
+
+| Metric | Value |
+|--------|-------|
+| Total AI Decisions Made | 240 |
+| Cumulative Reward Score | -316.28 |
+| Total Vehicles Cleared (Throughput) | 1,041 vehicles |
+| Average Stop Time per Vehicle | 9.22 seconds |
+| Average Stopped Cars per Cycle | 7.5 cars |
+| Maximum Gridlock (Worst-case queue) | 14 cars |
+
+The agent successfully cleared over **1,000 vehicles** in a single hour while keeping the average stop time under **10 seconds** and preventing severe gridlock — the worst-case queue never exceeded 14 cars at any point during the simulation.
+
+---
+
 ## Dependencies
 
 | Package | Version |
@@ -176,13 +193,13 @@ if yellow phase:
 
 ---
 
-## 📄 License
+## License
 
 This project is for educational and research purposes.
 
 ---
 
-## 🙏 Acknowledgements
+## Acknowledgements
 
 - [Eclipse SUMO](https://eclipse.dev/sumo/) — Traffic simulation platform
 - [sumo-rl](https://github.com/LucasAlegre/sumo-rl) — Gymnasium-compatible RL environment for SUMO
