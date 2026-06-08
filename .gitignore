@@ -19,11 +19,3 @@ trips.trips.xml
 .idea/
 *.swp
 *.swo
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Antigravity / Gemini
-.gemini/
-.antigravityignore
