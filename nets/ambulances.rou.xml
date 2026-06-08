@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-06-08 13:54:56.945498 by Eclipse SUMO randomTrips.py v1_27_0+0000-e238ea04b71
+<configuration>
+    <net-file value="nets/intersection.net.xml"/>
+    <route-file value="nets/ambulances.rou.xml"/>
+    <prefix value="ambul_"/>
+    <vehicle-class value="emergency"/>
+    <fringe-factor value="10"/>
+    <period value="60.0"/>
+</configuration>
+-->
+
+<!-- generated on 2026-06-08T13:54:56.860407+05:30 by Eclipse SUMO duarouter 1.27.0
+<duarouterConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="nets/intersection.net.xml"/>
+        <route-files value="trips.trips.xml"/>
+    </input>
+
+    <output>
+        <output-file value="nets/ambulances.rou.xml"/>
+        <alternatives-output value="NUL"/>
+    </output>
+
+    <processing>
+        <routing-threads value="9"/>
+    </processing>
+
+    <time>
+        <begin value="0"/>
+        <end value="3600.0"/>
+    </time>
+
+    <report>
+        <no-warnings value="true"/>
+        <ignore-errors value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+</duarouterConfiguration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="ambul__emergency" vClass="emergency"/>
+    <vehicle id="ambul_0" type="ambul__emergency" depart="0.00">
+        <route edges="-E2 E0"/>
+    </vehicle>
+    <vehicle id="ambul_1" type="ambul__emergency" depart="60.00">
+        <route edges="-E1 E0"/>
+    </vehicle>
+    <vehicle id="ambul_2" type="ambul__emergency" depart="120.00">
+        <route edges="-E3 E0"/>
+    </vehicle>
+    <vehicle id="ambul_3" type="ambul__emergency" depart="180.00">
+        <route edges="-E1 E0"/>
+    </vehicle>
+    <vehicle id="ambul_4" type="ambul__emergency" depart="240.00">
+        <route edges="-E0 E2"/>
+    </vehicle>
+    <vehicle id="ambul_5" type="ambul__emergency" depart="300.00">
+        <route edges="-E0 E2"/>
+    </vehicle>
+    <vehicle id="ambul_6" type="ambul__emergency" depart="360.00">
+        <route edges="-E3 E0"/>
+    </vehicle>
+    <vehicle id="ambul_7" type="ambul__emergency" depart="420.00">
+        <route edges="-E3 E2"/>
+    </vehicle>
+    <vehicle id="ambul_8" type="ambul__emergency" depart="480.00">
+        <route edges="-E1 E0"/>
+    </vehicle>
+    <vehicle id="ambul_9" type="ambul__emergency" depart="540.00">
+        <route edges="-E3 E1"/>
+    </vehicle>
+    <vehicle id="ambul_10" type="ambul__emergency" depart="600.00">
+        <route edges="-E3 E2"/>
+    </vehicle>
+    <vehicle id="ambul_11" type="ambul__emergency" depart="660.00">
+        <route edges="-E3 E2"/>
+    </vehicle>
+    <vehicle id="ambul_12" type="ambul__emergency" depart="720.00">
+        <route edges="-E2 E3"/>
+    </vehicle>
+    <vehicle id="ambul_13" type="ambul__emergency" depart="780.00">
+        <route edges="-E1 E2"/>
+    </vehicle>
+    <vehicle id="ambul_14" type="ambul__emergency" depart="840.00">
+        <route edges="-E3 E2"/>
+    </vehicle>
+    <vehicle id="ambul_15" type="ambul__emergency" depart="900.00">
+        <route edges="-E3 E2"/>
+    </vehicle>
+    <vehicle id="ambul_16" type="ambul__emergency" depart="960.00">
+        <route edges="-E2 E0"/>
+    </vehicle>
+    <vehicle id="ambul_17" type="ambul__emergency" depart="1020.00">
+        <route edges="-E0 E1"/>
+    </vehicle>
+    <vehicle id="ambul_18" type="ambul__emergency" depart="1080.00">
+        <route edges="-E0 E1"/>
+    </vehicle>
+    <vehicle id="ambul_19" type="ambul__emergency" depart="1140.00">
+        <route edges="-E2 E1"/>
+    </vehicle>
+    <vehicle id="ambul_20" type="ambul__emergency" depart="1200.00">
+        <route edges="-E1 E0"/>
+    </vehicle>
+    <vehicle id="ambul_21" type="ambul__emergency" depart="1260.00">
+        <route edges="-E1 E3"/>
+    </vehicle>
+    <vehicle id="ambul_22" type="ambul__emergency" depart="1320.00">
+        <route edges="-E0 E2"/>
+    </vehicle>
+    <vehicle id="ambul_23" type="ambul__emergency" depart="1380.00">
+        <route edges="-E0 E1"/>
+    </vehicle>
+    <vehicle id="ambul_24" type="ambul__emergency" depart="1440.00">
+        <route edges="-E3 E2"/>
+    </vehicle>
+    <vehicle id="ambul_25" type="ambul__emergency" depart="1500.00">
+        <route edges="-E0 E3"/>
+    </vehicle>
+    <vehicle id="ambul_26" type="ambul__emergency" depart="1560.00">
+        <route edges="-E3 E1"/>
+    </vehicle>
+    <vehicle id="ambul_27" type="ambul__emergency" depart="1620.00">
+        <route edges="-E2 E1"/>
+    </vehicle>
+    <vehicle id="ambul_28" type="ambul__emergency" depart="1680.00">
+        <route edges="-E3 E1"/>
+    </vehicle>
+    <vehicle id="ambul_29" type="ambul__emergency" depart="1740.00">
+        <route edges="-E1 E0"/>
+    </vehicle>
+    <vehicle id="ambul_30" type="ambul__emergency" depart="1800.00">
+        <route edges="-E2 E1"/>
+    </vehicle>
+    <vehicle id="ambul_31" type="ambul__emergency" depart="1860.00">
+        <route edges="-E2 E3"/>
+    </vehicle>
+    <vehicle id="ambul_32" type="ambul__emergency" depart="1920.00">
+        <route edges="-E1 E0"/>
+    </vehicle>
+    <vehicle id="ambul_33" type="ambul__emergency" depart="1980.00">
+        <route edges="-E3 E2"/>
+    </vehicle>
+    <vehicle id="ambul_34" type="ambul__emergency" depart="2040.00">
+        <route edges="-E0 E2"/>
+    </vehicle>
+    <vehicle id="ambul_35" type="ambul__emergency" depart="2100.00">
+        <route edges="-E3 E1"/>
+    </vehicle>
+    <vehicle id="ambul_36" type="ambul__emergency" depart="2160.00">
+        <route edges="-E0 E1"/>
+    </vehicle>
+    <vehicle id="ambul_37" type="ambul__emergency" depart="2220.00">
+        <route edges="-E3 E2"/>
+    </vehicle>
+    <vehicle id="ambul_38" type="ambul__emergency" depart="2280.00">
+        <route edges="-E0 E2"/>
+    </vehicle>
+    <vehicle id="ambul_39" type="ambul__emergency" depart="2340.00">
+        <route edges="-E1 E2"/>
+    </vehicle>
+    <vehicle id="ambul_40" type="ambul__emergency" depart="2400.00">
+        <route edges="-E0 E1"/>
+    </vehicle>
+    <vehicle id="ambul_41" type="ambul__emergency" depart="2460.00">
+        <route edges="-E1 E3"/>
+    </vehicle>
+    <vehicle id="ambul_42" type="ambul__emergency" depart="2520.00">
+        <route edges="-E3 E1"/>
+    </vehicle>
+    <vehicle id="ambul_43" type="ambul__emergency" depart="2580.00">
+        <route edges="-E2 E0"/>
+    </vehicle>
+    <vehicle id="ambul_44" type="ambul__emergency" depart="2640.00">
+        <route edges="-E1 E2"/>
+    </vehicle>
+    <vehicle id="ambul_45" type="ambul__emergency" depart="2700.00">
+        <route edges="-E2 E0"/>
+    </vehicle>
+    <vehicle id="ambul_46" type="ambul__emergency" depart="2760.00">
+        <route edges="-E3 E2"/>
+    </vehicle>
+    <vehicle id="ambul_47" type="ambul__emergency" depart="2820.00">
+        <route edges="-E3 E2"/>
+    </vehicle>
+    <vehicle id="ambul_48" type="ambul__emergency" depart="2880.00">
+        <route edges="-E0 E1"/>
+    </vehicle>
+    <vehicle id="ambul_49" type="ambul__emergency" depart="2940.00">
+        <route edges="-E0 E3"/>
+    </vehicle>
+    <vehicle id="ambul_50" type="ambul__emergency" depart="3000.00">
+        <route edges="-E1 E0"/>
+    </vehicle>
+    <vehicle id="ambul_51" type="ambul__emergency" depart="3060.00">
+        <route edges="-E0 E1"/>
+    </vehicle>
+    <vehicle id="ambul_52" type="ambul__emergency" depart="3120.00">
+        <route edges="-E0 E3"/>
+    </vehicle>
+    <vehicle id="ambul_53" type="ambul__emergency" depart="3180.00">
+        <route edges="-E3 E0"/>
+    </vehicle>
+    <vehicle id="ambul_54" type="ambul__emergency" depart="3240.00">
+        <route edges="-E1 E2"/>
+    </vehicle>
+    <vehicle id="ambul_55" type="ambul__emergency" depart="3300.00">
+        <route edges="-E1 E3"/>
+    </vehicle>
+    <vehicle id="ambul_56" type="ambul__emergency" depart="3360.00">
+        <route edges="-E1 E0"/>
+    </vehicle>
+    <vehicle id="ambul_57" type="ambul__emergency" depart="3420.00">
+        <route edges="-E0 E1"/>
+    </vehicle>
+    <vehicle id="ambul_58" type="ambul__emergency" depart="3480.00">
+        <route edges="-E3 E2"/>
+    </vehicle>
+    <vehicle id="ambul_59" type="ambul__emergency" depart="3540.00">
+        <route edges="-E1 E2"/>
+    </vehicle>
+</routes>

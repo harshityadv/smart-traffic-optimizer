@@ -1,0 +1,6 @@
+gymnasium>=1.0.0
+sumo-rl>=1.4.0
+stable-baselines3>=2.0.0
+torch>=2.0.0
+numpy>=2.0.0
+pandas>=2.0.0
